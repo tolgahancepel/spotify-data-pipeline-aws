@@ -1,4 +1,4 @@
-# Spotify Data Processing ETL Pipeline on A
+# Spotify Data Processing ETL Pipeline on AWS
 
 ## Overview
 <Summary>
