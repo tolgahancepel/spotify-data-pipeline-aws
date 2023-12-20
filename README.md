@@ -17,4 +17,4 @@
 4. <TODO: add steps for creating new AWS services>
 
 ## License
-This project is licensed under [License Name] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under MIT License - see the [LICENSE](LICENSE) file for details.
