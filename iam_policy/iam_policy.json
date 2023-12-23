@@ -1,0 +1,32 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "s3:PutObject",
+          "s3:GetBucketLocation",
+          "s3:ListBucket"
+        ],
+        "Resource": [
+          "arn:aws:s3:::spotify-etl-pipeline-cepel/*"
+        ]
+      },
+      {
+        "Effect": "Allow",
+        "Action": [
+          "lambda:GetFunctionConfiguration",
+          "lambda:InvokeFunction"
+        ],
+        "Resource": "*"
+      },
+      {
+        "Effect": "Allow",
+        "Action": [
+          "ec2:DescribeInstances"
+        ],
+        "Resource": "*"
+      }
+    ]
+  }
+  
