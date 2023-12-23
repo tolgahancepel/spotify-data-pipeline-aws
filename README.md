@@ -3,7 +3,7 @@
 
 ## Project Structure
 
-<img src="screenshots/diagram.png" alt="Alt text" width="1400">
+<img src="screenshots/0_diagram.png" alt="Alt text" width="1400">
 
 ## Overview
 End-to-end data engineering pipeline that retrieves "Top 50 Songs in Turkey" from Spotify API by leveraging AWS Cloud Services. This pipeline orchestrates daily data retrievals, allowing for analysis through Amazon Athena queries.
