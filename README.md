@@ -9,7 +9,7 @@
 End-to-end data engineering pipeline that retrieves "Top 50 Songs in Turkey" from Spotify API by leveraging AWS Cloud Services. This pipeline orchestrates daily data retrievals, allowing for analysis through Amazon Athena queries.
 
 ## Tools Used
-- **Jupyter Notebooks:** Utilized for initial data exploration, analysis, and establishing a baseline for data extraction.
+- **Jupyter Notebook:** Utilized for initial data exploration, analysis, and establishing a baseline for data extraction.
 - **Amazon S3**: Used as a data lake to store raw and processed data from Spotify API.
 - **AWS Lambda**: Executing the Python scripts for data extraction and transformation.
 - **AWS Glue Catalog**: Serves as a metadata repository for storing table definitions and schema information for processed data.
